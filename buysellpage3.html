@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Trade Shop - Student Trading Platform</title>
+  <style>
+    /* Add some basic styling to the page */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      color: #F3F4F6;
+      color: #000;
+    }
+
+    h1 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .back-button {
+      background-color: #ff8c00; /* Light orange */
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .back-button:hover {
+      background-color: #ff7f00; /* Darker shade of light orange */
+    }
+
+    .main-content {
+      margin-top: 50px;
+    }
+
+    .big-button {
+      background-color: #ff8c00; /* Light orange */
+      color: white;
+      border: none;
+      padding: 20px 40px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .big-button:hover {
+      background-color: #ff7f00; /* Darker shade of light orange */
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <button class="back-button" onclick="goBack()"><</button>
+  </div>
+  <h1>Student Trade Shop</h1>
+  <div class="main-content">
+    <button class="big-button">BUY</button>
+    <button class="big-button">SELL</button>
+  </div>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html
